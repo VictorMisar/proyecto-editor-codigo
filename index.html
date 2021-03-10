@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de codigo</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="./img/Logo_editor.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <h1>Editor de codigo</h1>
+    <h2>Acepta etiquetas
+        y atributos HTML,CSS.
+    </h2>
+    <div class="container">
+        <div class="container-dos">
+            <textarea id="text" 
+            class="text" 
+            onkeyup="update()"
+            placeholder="Escribe tu codigo aquí"></textarea>
+        </div>
+        <iframe id="view" srcdoc="<h1>Hola guapo/a</h1>"></iframe>
+    </div>
+    <script src="./js/efectos.js"></script>
+</body>
+</html>

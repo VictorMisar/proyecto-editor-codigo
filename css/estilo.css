@@ -1,0 +1,58 @@
+body {
+    /*cursor: url(https://cur.cursors-4u.net/mechanics/mec-3/mec293.cur), auto !important;*/
+    background: #004880;
+}
+h1 {
+    color: seashell;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+h2 {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+.container {
+    width: 100%;
+    display: flexbox;
+    text-align: center;
+    padding: 25px;
+}
+.container-dos {
+    border-radius: 9px;
+    border: none;
+    width: 100%;
+    overflow: auto;
+    
+}
+.container-dos textarea{
+    width: 100%;
+    border-radius: 9px;
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.text{
+    box-shadow: 15px 5px 15px 0 black;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 9px;
+    border: none;
+    box-shadow: 10px 5px 15px 0 black;
+}
+
+@media screen and (min-width: 600px) {
+	.container {
+		display: inline-flex;  
+	}
+    .container-dos textarea {
+        height: 100%;
+    }
+
+}
